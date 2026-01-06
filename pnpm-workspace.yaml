@@ -1,0 +1,10 @@
+ignoredBuiltDependencies:
+  - "@sentry/cli"
+
+onlyBuiltDependencies:
+  - "@swc/core"
+  - esbuild
+
+ignoreDepScripts: true
+childConcurrency: 10
+engineStrict: true

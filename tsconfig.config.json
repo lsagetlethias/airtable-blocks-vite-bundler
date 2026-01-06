@@ -1,0 +1,10 @@
+{
+    "extends": "@tsconfig/bases/node-lts",
+    "compilerOptions": {
+        "noEmit": true
+    },
+    "exclude": [ "src/**/*" ],
+    "files": [
+        "eslint.config.ts"
+    ]
+}

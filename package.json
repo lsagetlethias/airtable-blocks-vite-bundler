@@ -1,0 +1,51 @@
+{
+    "name": "@lsagetlethias/airtable-blocks-vite-bundler",
+    "type": "module",
+    "description": "Vite bundler for @airtable/blocks-cli",
+    "version": "0.0.1",
+    "homepage": "https://github.com/lsagetlethias/airtable-blocks-vite-bundler",
+    "author": "Lilian Saget-Lethias",
+    "peerDependencies": {
+        "@airtable/blocks-cli": "^3.0.1"
+    },
+    "dependencies": {
+        "vite": "^7.3.0"
+    },
+    "devDependencies": {
+        "@airtable/blocks-cli": "^3.0.1",
+        "@tsconfig/bases": "^1.0.16",
+        "@types/node": "^24.10.4",
+        "@typescript-eslint/eslint-plugin": "^8.52.0",
+        "@typescript-eslint/parser": "^8.52.0",
+        "@vitejs/plugin-react-swc": "^4.2.2",
+        "eslint": "^9.39.2",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-prettier": "^5.5.4",
+        "jiti": "^2.6.1",
+        "prettier": "^3.7.4",
+        "typescript": "^5.9.3"
+    },
+    "packageManager": "pnpm@10.27.0+sha512.72d699da16b1179c14ba9e64dc71c9a40988cbdc65c264cb0e489db7de917f20dcf4d64d8723625f2969ba52d4b7e2a1170682d9ac2a5dcaeaab732b7e16f04a",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "files": [
+        "/dist"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "license": "UNLICENSED",
+    "main": "dist/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "prebuild": "rm -rf dist",
+        "build": "tsc"
+    },
+    "types": "dist/index.d.ts"
+}

@@ -1,0 +1,12 @@
+yarn-error.log
+npm-debug.log
+.DS_Store
+.idea
+.vscode
+
+
+/node_modules/
+/dist/
+/transpiled/
+/coverage/
+/*.tsbuildinfo
