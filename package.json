@@ -2,7 +2,7 @@
     "name": "@lsagetlethias/airtable-blocks-vite-bundler",
     "type": "module",
     "description": "Vite bundler for @airtable/blocks-cli",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "https://github.com/lsagetlethias/airtable-blocks-vite-bundler",
     "author": "Lilian Saget-Lethias",
     "peerDependencies": {
