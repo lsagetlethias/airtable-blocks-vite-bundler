@@ -53,5 +53,5 @@ Please make sure to update or add tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Apache-2.0](LICENSE)
 
