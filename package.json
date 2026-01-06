@@ -1,15 +1,15 @@
 {
     "name": "@lsagetlethias/airtable-blocks-vite-bundler",
-    "type": "module",
     "description": "Vite bundler for @airtable/blocks-cli",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "homepage": "https://github.com/lsagetlethias/airtable-blocks-vite-bundler",
     "author": "Lilian Saget-Lethias",
     "peerDependencies": {
         "@airtable/blocks-cli": "^3.0.1"
     },
     "dependencies": {
-        "vite": "^7.3.0"
+        "vite": "^7.3.0",
+        "@vitejs/plugin-react-swc": "^4.2.2"
     },
     "devDependencies": {
         "@airtable/blocks-cli": "^3.0.1",
@@ -17,7 +17,6 @@
         "@types/node": "^24.10.4",
         "@typescript-eslint/eslint-plugin": "^8.52.0",
         "@typescript-eslint/parser": "^8.52.0",
-        "@vitejs/plugin-react-swc": "^4.2.2",
         "eslint": "^9.39.2",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-import": "^2.32.0",
@@ -38,13 +37,6 @@
     ],
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./dist/index.js",
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
-        }
-    },
     "license": "Apache-2.0",
     "scripts": {
         "lint": "eslint .",
